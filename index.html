@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="shortcut icon" href="./imagenes/logo.jpg" type="logoferia">
     <title>FERIA DEL LIBRO COMODORO RIVADAVIA</title>
 </head>
 <body>
@@ -12,9 +13,6 @@
             <ul>
                 <li>
                     <a href="index.html">HOME</a>
-                </li>
-                <li>
-                    <a href="./secciones/informacion.html">INFORMACIÓN</a>
                 </li>
                 <li>
                     <a href="./secciones/programa.html">PROGRAMA DE ACTIVIDADES</a>
@@ -28,36 +26,80 @@
                 <li>
                     <a href="./secciones/actividadeseducativas.html">ACTIVIDADES EDUCATIVAS</a>
                 </li>
-                <li>
-                    <a href="./secciones/contacto.html">CONTACTO</a>
-                </li>
             </ul>
         </nav>
-        <main>
-
-            <h1 class="title">FERIA INTERNACIONAL DEL LIBRO DE COMODORO RIVADAVIA</h1>
-
-            <figure>
-                <img src="./imagenes/logo.jpg" alt="logoferiadellibro">
-            </figure>
-
-            
-        <section>
-            <p>¡Te invitamos a participar de la 11° edición de la feria! Es la más importante del interior del pais</p>
-            <img src="./imagenes/feria.jpg" alt="feriadellibro">
+        <section class="textos-header">
+            <h1 class="textos-headerh1">FERIA INTERNACIONAL DEL LIBRO DE COMODORO RIVADAVIA</h1>
+            <h2 class="textos-headerh2">La más convocante del interior del pais</h2>
         </section>
-
-        </main>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg>
+        </div>
     </header>
+        
+        <main>
+            <section class="contenedor info-feria">
+                <h2 class="subtitulo"> Sobre la Feria </h2>
+                <div class="contenedor-info-feria">
+                    <img class="logo-feria" src="./imagenes/logo.jpg" alt="logoferiadellibro">    
+                    <div class="contenido-texto">
+                        <h3 class="contenido-textoh3"><span class="contenido-textoh3span">1</span>Información General</h3>
+                        <p class="contenido-textop">La Feria Internacional del Libro de Comodoro Rivadavia, en Chubut, celebra su 11° edición desde el 19 al 29 de Septiembre con la participación de más de 250 editoriales y autores invitados, como Guillermo Martínez, Diego Golombek, Claudia Piñeiro, Dolores Reyes y Daniel López Rosetti</p>
+                        <h3 class="contenido-textoh3"><span class="contenido-textoh3span">2</span>Actividades</h3>
+                        <p class="contenido-textop">Con entrada libre y gratuita, la Feria se realizará en nueve sedes distintas, ubicadas en el casco céntrico de la ciudad patagónica, donde habrá presentaciones de libros, charlas, seminarios, conversatorios, café literario, muestras y proyección de largometrajes, además de la venta de libros.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div>
+                <section class="galeria">
+                    <div class="contenedor">    
+                        <h2 class="subtitulo"> Galeria </h2>    
+                        <div class="imagenes-feria"></div>
+                        <img class="imginicio" src="./imagenes/presentaciones.jpg" alt="presentaciondeescritor">
+                        <img class="imginicio" src="./imagenes/presentaciones2.jpg" alt="conferenciadeautor">
+                        <img class="imginicio" src="./imagenes/feria.jpg" alt="vistadelaferia">
+                        <img class="imginicio" src="./imagenes/stands.jpg" alt="standsdelaferia">
+                        <img class="imginicio" src="./imagenes/presentaciones3.jpeg" alt="conferencias">
+                    </div>
+                </section>
+            </div>    
+
+            <section>
+                <div class="opinionesvisitantes-contenedor"> 
+                    <h2 class="subtitulo"> Que dicen las personas que nos visitan </h2>
+                    <div class="tarjetas">
+                        <div class="tarjeta">
+                            <div class="contenido-texto-tarjeta">
+                                <h4>Jose Aguilar</h4>
+                                <p class="texto-tarjeta-p">Una gran experencia para los amantes de los libros, actividades y charlas.</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="contenido-texto-tarjeta">
+                                <h4>Maria Angeles Mallan</h4>
+                                <p class="texto-tarjeta-p">Material de literatura cultural y diversa. Hay muchos stands para leer y comprar libros. Para visitar más de una vez.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="contenido-texto-tarjeta">
+                                <h4>Juan Rickemberg</h4>
+                                <p class="texto-tarjeta-p">Oportunidad para conocer escritores y aprovechar shows y charlas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
 
-    <div>
-        <footer>
-            <a href="http://www.facebook.com/feriadellibrocr" target="_blank"><img src="./imagenes/iconofacebook.svg" alt="logodefacebook">
-            <a href="http://www.instagram.com/feriadellibrocr" target="_blank"><img src="./imagenes/iconoinstagram.svg" alt="logodeinstagram">
+
+    <footer>
+        <div class="contenedor-footer">
+            <a class="contenedor-footer" href="http://www.facebook.com/feriadellibrocr" target="_blank"><img src="./imagenes/iconofacebook.svg" alt="logodefacebook">
+            <a class="contenedor-footer" href="http://www.instagram.com/feriadellibrocr" target="_blank"><img src="./imagenes/iconoinstagram.svg" alt="logodeinstagram">
+        </div>                
         </footer>
-    </div>
-
 </body>
 
 

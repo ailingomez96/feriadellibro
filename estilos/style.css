@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 *{
     margin:0;
@@ -7,9 +8,46 @@
     
 }
 
+body{
+    font-family: "Roboto";
+}
+
+.contenedor{
+    padding: 60px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.subtitulo{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #EECDA3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef629f85, #eecda3d3), url(../imagenes/libros.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef629f85, #eecda3d3), url(../imagenes/libros.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    height: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
 li{
     list-style-type:none;
-    float: left
+    float: left;
 }
 
 a{
@@ -23,40 +61,145 @@ a{
 
 nav ul li{
     overflow: hidden;
-    background-color:#49A6A6;
     list-style-type: none
-}
-
-header{
-
-    height: 100px;;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #F2BC1B;
-    padding: 10px;
-    
 }
 
 a:hover{
 background-color: #D91A96;
 }
 
-h1{
-    margin: 20px;
-    text-align: left;
-    color:#D91A96;
-    padding: 60px;
-    text-decoration:solid 
-
-
-    
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
-body{
-    background-color:#F8C5A0;
 
-    
+.textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+.textos-headerh1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.textos-headerh2{
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.contenedor-info-feria{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.logo-feria{
+    width: 26%;
+}
+
+.contenido-texto{
+    width: 48%;
+}
+
+.contenido-textoh3{
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.contenido-textoh3span{
+    background: #D91A96;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.contenido-textop{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.galeria{
+    background: #f2f2f2;
+}
+
+.imagenes-feria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imginicio{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.imginicio > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tarjeta{
+    background:#1782c4ab;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.contenido-texto-tarjeta{
+    width: 70%;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+
+.texto-tarjeta-p{
+    padding: 5%;
+    font-size: large;
+    font-weight: 300;
+    text-align: justify;
+}
+
+footer{
+    background: #d91a968a;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 0px solid #1781c4;
+}
+
 
 section{
     font-family:"Roboto", sans-serif;
@@ -84,9 +227,8 @@ p{
 
 }
 
-img{
+ig{
     margin: 90px;
-    border:5px solid #F2BC1B;
     margin-top: 10px;
     text-align:center;    
 }
@@ -98,23 +240,7 @@ img{
     margin-top: 10px
 }
 
-footer{
-    position: relative;
-    left: 150px x 100px;
-    bottom: 100px;
-    margin-top: 930px;
-    width: 5px x 3px;
-    background-color: #1781c4;
-    justify-content:center;
-}
 
-header{
-
-    height: 150px;;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
 
 section{
     font-family: "Roboto", sans-serif;
