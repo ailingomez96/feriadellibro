@@ -210,4 +210,53 @@ footer{
     padding-bottom: 30px;
 }
 
+.editoriales-listado {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-bottom: 20px;
+}
 
+.editoriales-listado a{
+    position: relative;
+    display: block;
+    padding: 10px;
+    margin: 20px 10px;
+    background: #d91a966c;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: large;
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+    color: #000;
+    text-align: left;
+}
+
+.librerías-listado {
+    display: flex;
+    justify-content: space-evenly;
+    counter-reset: li; 
+    list-style: none; 
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.librerías-listado ul {
+    margin: 0 0 0 50px; 
+}
+
+.librerías-listado a{
+    position: relative;
+    display: block;
+    padding: 10px;
+    margin: 20px 10px;
+    background: #d91a966c;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+    color: #000;
+    text-align: left;
+    }
