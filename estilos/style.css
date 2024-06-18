@@ -102,10 +102,13 @@ background-color: #D91A96;
 
 .logo-feria{
     width: 26%;
+    height: 26%;
 }
 
 .contenido-texto{
     width: 48%;
+    padding: 5px;
+    line-height: 30px;
 }
 
 .contenido-textoh3{
@@ -166,8 +169,12 @@ background-color: #D91A96;
     width: 46%;
     height: 200px;
     align-items: center;
-    justify-content: space-evenly;
-    border-radius: 5px;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 400;
+    padding: 5px;
+    line-height: 30px;
+    border: 15px solid whitesmoke;
 }
 
 .contenido-texto-tarjeta{
@@ -186,72 +193,17 @@ background-color: #D91A96;
 
 footer{
     background: #d91a968a;
-    padding: 60px 0 30px 0;
+    padding: 20px 0 20px 0;
     margin: auto;
+    border: 20px;
     overflow: hidden;
 }
 
 .contenedor-footer{
     display: flex;
-    width: 90%;
-    justify-content: space-evenly;
+    width: 50%;
+    justify-content:center;
     margin: auto;
     padding-bottom: 30px;
-    border-bottom: 0px solid #1781c4;
 }
 
-
-section{
-    font-family:"Roboto", sans-serif;
-    font-weight:400;
-    font-style:italic;    
-}
-
-div{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-p{
-    color: black;
-    padding: 5px;
-    font-style: normal;
-    font-variant: 300;
-    text-align: left;
-    line-height: 25px;
-    border: 0px solid whitesmoke;
-    border-radius: 80px;
-    justify-content: center;
-
-
-}
-
-ig{
-    margin: 90px;
-    margin-top: 10px;
-    text-align:center;    
-}
-
-.icono{
-    border-radius: 100px;
-    margin: 30px;
-    border: none;
-    margin-top: 10px
-}
-
-
-
-section{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    color: black;
-    padding: 5px;
-    font-variant: 300;
-    text-align: left;
-    line-height: 25px;
-    border: 0px solid whitesmoke;
-    border-radius: 80px;
-    justify-content: center;
-}
