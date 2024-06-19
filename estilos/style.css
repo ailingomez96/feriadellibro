@@ -157,13 +157,13 @@ main .info-feria{
 
 .imagenes-feria{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .imginicio{
-    width: 24%;
-    margin-bottom: 10px;
+    width: 20%;
+    margin-bottom: 15px;
     overflow: hidden;
     position: relative;
 }
@@ -219,7 +219,7 @@ footer{
 .contenedor-footer{
     display: flex;
     width: 50%;
-    justify-content:center;
+    justify-content: space-evenly;
     margin: auto;
     padding-bottom: 30px;
 }
@@ -281,6 +281,130 @@ footer{
     line-height: 30px;
     text-align: justify;
     margin-bottom: 30px;
+}
+
+main .programa-actividades{
+    padding: 30px 0 60px 0;
+}
+
+.contenedor-programa-act-educativas{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.zona-docente1{
+    width: 26%;
+    height: 26%;
+}
+
+.zona-docente2{
+    width: 26%;
+    height: 26%;
+}
+
+.zona-docente3{
+    width: 26%;
+    height: 26%;
+}
+
+.grid-container{
+    min-height: 400px;
+    padding: 10px;
+    gap: 10px;
+    display: grid;
+    justify-items:stretch;
+    align-items: stretch;
+    justify-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5 1fr);
+}
+
+.grid-item1{
+    background: #d91a9641;
+    font-size: 20px;
+    text-size-adjust:inherit;
+    margin: 15px;
+    font-weight: 400;
+}
+
+.grid-item2{
+    background: #1782c47a;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+.grid-item3{
+    background: #1782c47a;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+}    
+
+.grid-item4{
+    background: #d91a9641;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+.grid-item5{
+    background: #d91a9641;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+.grid-item6{
+    background: #1782c47a;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+}    
+
+.grid-item7{
+    background: #1782c47a;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+.grid-item8{
+    background: #d91a9641;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+    font-style: italic;
+}
+
+.grid-item9{
+    background: #d91a9641;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+}    
+
+.grid-item10{
+    background: #1782c47a;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.pgridtitulo{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.pgrid{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px;
 }
 
 /*media queries*/
