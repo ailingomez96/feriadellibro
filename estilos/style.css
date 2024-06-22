@@ -327,7 +327,63 @@ main .programa-actividades{
     border-radius: 5%;
 }
 
+section{
 
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    }
+    
+.container {
+
+    
+    background-color: #fff;
+    text-align: center;
+    margin top: 100px;
+    
+
+}
+    
+h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding: 0px;
+    }
+    
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+
+    margin-bottom: 60px;
+    }
+    
+label {
+    margin-bottom: 5px;
+    text-align: left;
+    }
+    
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+        }
+    
+button:hover {
+    background-color: #0056b3;
+    }
 .grid-container{
     min-height: 400px;
     padding: 10px;
