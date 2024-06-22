@@ -326,7 +326,6 @@ main .programa-actividades{
     float: right;
     border-radius: 5%;
 }
-
 section{
 
     font-weight: bold;
@@ -384,6 +383,8 @@ button {
 button:hover {
     background-color: #0056b3;
     }
+
+
 .grid-container{
     min-height: 400px;
     padding: 10px;
