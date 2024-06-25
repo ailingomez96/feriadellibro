@@ -35,12 +35,27 @@ header{
     background: -webkit-linear-gradient(to right, #ef629f85, #eecda3d3), url(../imagenes/libros.jpg); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ef629f85, #eecda3d3), url(../imagenes/libros.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 nav{
     height: 100px;
     padding: 10px;
+}
+
+.menú {
+    display: flex;
+    justify-content: center; /* Alinea los elementos al centro */
+}
+
+.menú ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menú ul li {
+    margin: 0 10px;
 }
 
 li{ 
@@ -464,11 +479,41 @@ button{
 @media (max-width: 1024px){
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px){
 
 }
 
-@media (max-width: 767px) {
+@media (min-width: 220px) and (max-width: 767px){
+
+    header{
+        font-size: 20px;
+    }
+
+    .menú ul {
+        flex-direction: column;
+    }
+    
+    .menú ul li {
+        margin: 5px 0;
+    }
+
+    .menú ul li a{
+        font-size: x-small;
+    } 
+
+    .textos-header{
+        width: 90%;
+    }
+
+    .textos-headerh1{
+    font-size: 20px;
+    margin-bottom: 10%;
+    text-align: center;
+    }
+
+    .textos-headerh2{
+    font-size: 15px;
+    }
 
     .contenedor-info-feria{
         flex-direction: column;
@@ -479,6 +524,11 @@ button{
     .contenido-texto{
         width: 90%;
     }
+
+    .contenedor-img{
+    width: 100%;
+    margin: 10px;
+}
 
     .imginicio{
         width: 44%;
@@ -493,15 +543,38 @@ button{
     }
     .tarjeta{
         width: 90%;
-        padding-bottom: 20px;        
+        padding-bottom: 20px;
     }
+
+.contenido-texto-tarjeta{
+    font-size: medium;
+}
+
+    .texto-tarjeta-p{
+        font-size: small;
+        border: none;
+    }
+
 
     footer{
         width: 80%;
     }
 
     .social-icon{
-        width: 50%;
+        width: 10%;
+    }
+
+    .grid-container{
+    grid-template-columns: auto;
+    width: 100%;
+    }
+
+    .editoriales-listado ul li a{
+        text-align: center;
+    }
+
+    .librerías-listado ul li a{
+        text-align: center;
     }
 }
 
