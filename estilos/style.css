@@ -165,10 +165,6 @@ main .info-feria{
     margin-left: 15%;
 }
 
-.galeria{
-    background: #f2f2f2;
-}
-
 .imagenes-feria{
     display: flex;
     justify-content: center;
