@@ -1,0 +1,236 @@
+{
+    "usuarios": [
+    {
+        "usuario": "usuario 1",
+        "nombre": "Juan Pérez",
+        "edad": 30,
+        "correo": "juan.perez@example.com",
+        "tipo_libro": ["novela", "ciencia ficción"],
+        "region": "Buenos Aires"
+    },
+    {
+        "usuario": "usuario 2",
+        "nombre": "Ana Gómez",
+        "edad": 25,
+        "correo": "ana.gomez@example.com",
+        "tipo_libro": ["misterio", "biografía"],
+        "region": "CABA"
+    },
+    {
+        "usuario": "usuario 3",
+        "nombre": "Luis Martínez",
+        "edad": 28,
+        "correo": "luis.martinez@example.com",
+        "tipo_libro": ["fantasía", "historia"],
+        "region": "Córdoba"
+    },
+    {
+        "usuario": "usuario 4",
+        "nombre": "María López",
+        "edad": 35,
+        "correo": "maria.lopez@example.com",
+        "tipo_libro": ["autoayuda", "romántico"],
+        "region": "Rosario"
+    },
+    {
+        "usuario": "usuario 5",
+        "nombre": "Carlos Fernández",
+        "edad": 40,
+        "correo": "carlos.fernandez@example.com",
+        "tipo_libro": ["policiaca", "ensayo"],
+        "region": "Mendoza"
+    },
+    {
+        "usuario": "usuario 6",
+        "nombre": "Lucía Torres",
+        "edad": 27,
+        "correo": "lucia.torres@example.com",
+        "tipo_libro": ["romántico", "historia"],
+        "region": "La Plata"
+    },
+    {
+        "usuario": "usuario 7",
+        "nombre": "Pedro Sánchez",
+        "edad": 32,
+        "correo": "pedro.sanchez@example.com",
+        "tipo_libro": ["aventura", "ciencia ficción"],
+        "region": "San Miguel de Tucumán"
+    },
+    {
+        "usuario": "usuario 8",
+        "nombre": "Sofía Martínez",
+        "edad": 29,
+        "correo": "sofia.martinez@example.com",
+        "tipo_libro": ["misterio", "novela"],
+        "region": "Salta"
+    },
+    {
+        "usuario": "usuario 9",
+        "nombre": "Javier Díaz",
+        "edad": 34,
+        "correo": "javier.diaz@example.com",
+        "tipo_libro": ["fantasía", "biografía"],
+        "region": "Neuquén"
+    },
+    {
+        "usuario": "usuario 10",
+        "nombre": "Camila Rodríguez",
+        "edad": 31,
+        "correo": "camila.rodriguez@example.com",
+        "tipo_libro": ["autoayuda", "romántico"],
+        "region": "San Juan"
+    },
+    {
+        "usuario": "usuario 11",
+        "nombre": "Martín López",
+        "edad": 26,
+        "correo": "martin.lopez@example.com",
+        "tipo_libro": ["novela", "ensayo"],
+        "region": "Santa Fe"
+    },
+    {
+        "usuario": "usuario 12",
+        "nombre": "Gabriela Fernández",
+        "edad": 33,
+        "correo": "gabriela.fernandez@example.com",
+        "tipo_libro": ["ciencia ficción", "policiaca"],
+        "region": "Jujuy"
+    },
+    {
+        "usuario": "usuario 13",
+        "nombre": "Alejandro Romero",
+        "edad": 37,
+        "correo": "alejandro.romero@example.com",
+        "tipo_libro": ["historia", "autoayuda"],
+        "region": "Chaco"
+    },
+    {
+        "usuario": "usuario 14",
+        "nombre": "Valeria Guzmán",
+        "edad": 22,
+        "correo": "valeria.guzman@example.com",
+        "tipo_libro": ["romántico", "fantasía"],
+        "region": "Misiones"
+    },
+    {
+        "usuario": "usuario 15",
+        "nombre": "Rodrigo Díaz",
+        "edad": 29,
+        "correo": "rodrigo.diaz@example.com",
+        "tipo_libro": ["biografía", "aventura"],
+        "region": "Corrientes"
+    },
+    {
+        "usuario": "usuario 16",
+        "nombre": "Natalia Silva",
+        "edad": 26,
+        "correo": "natalia.silva@example.com",
+        "tipo_libro": ["novela", "misterio"],
+        "region": "Formosa"
+    },
+    {
+        "usuario": "usuario 17",
+        "nombre": "Tomás López",
+        "edad": 34,
+        "correo": "tomas.lopez@example.com",
+        "tipo_libro": ["ensayo", "historia"],
+        "region": "Catamarca"
+    },
+    {
+        "usuario": "usuario 18",
+        "nombre": "Florencia González",
+        "edad": 31,
+        "correo": "florencia.gonzalez@example.com",
+        "tipo_libro": ["ciencia ficción", "romántico"],
+        "region": "La Rioja"
+    },
+    {
+        "usuario": "usuario 19",
+        "nombre": "Federico Castro",
+        "edad": 28,
+        "correo": "federico.castro@example.com",
+        "tipo_libro": ["aventura", "policiaca"],
+        "region": "Rio Negro"
+    },
+    {
+        "usuario": "usuario 20",
+        "nombre": "Paula Mendez",
+        "edad": 30,
+        "correo": "paula.mendez@example.com",
+        "tipo_libro": ["novela", "biografía"],
+        "region": "Santa Cruz"
+    },
+    {
+        "usuario": "usuario 21",
+        "nombre": "José Moreno",
+        "edad": 42,
+        "correo": "jose.moreno@example.com",
+        "tipo_libro": ["historia", "ciencia ficción"],
+        "region": "Buenos Aires"
+    },
+    {
+        "usuario": "usuario 22",
+        "nombre": "Elena Martín",
+        "edad": 24,
+        "correo": "elena.martin@example.com",
+        "tipo_libro": ["novela", "autoayuda"],
+        "region": "CABA"
+    },
+    {
+        "usuario": "usuario 23",
+        "nombre": "Carmen Rivera",
+        "edad": 37,
+        "correo": "carmen.rivera@example.com",
+        "tipo_libro": ["romántico", "misterio"],
+        "region": "Córdoba"
+    },
+    {
+        "usuario": "usuario 24",
+        "nombre": "Alberto Ramos",
+        "edad": 29,
+        "correo": "alberto.ramos@example.com",
+        "tipo_libro": ["biografía", "aventura"],
+        "region": "Rosario"
+    },
+    {
+        "usuario": "usuario 25",
+        "nombre": "Marina García",
+        "edad": 31,
+        "correo": "marina.garcia@example.com",
+        "tipo_libro": ["fantasía", "ciencia ficción"],
+        "region": "Mendoza"
+    },
+    {
+        "usuario": "usuario 26",
+        "nombre": "Jorge Silva",
+        "edad": 34,
+        "correo": "jorge.silva@example.com",
+        "tipo_libro": ["historia", "ensayo"],
+        "region": "San Miguel de Tucumán"
+    },
+    {
+        "usuario": "usuario 27",
+        "nombre": "Verónica Fernández",
+        "edad": 28,
+        "correo": "veronica.fernandez@example.com",
+        "tipo_libro": ["misterio", "novela"],
+        "region": "Salta"
+    },
+    {
+        "usuario": "usuario 28",
+        "nombre": "Eduardo Martínez",
+        "edad": 39,
+        "correo": "eduardo.martinez@example.com",
+        "tipo_libro": ["autoayuda", "policiaca"],
+        "region": "Neuquén"
+    },
+    {
+        "usuario": "usuario 29",
+        "nombre": "Gabriela López",
+        "edad": 27,
+        "correo": "gabriela.lopez@example.com",
+        "tipo_libro": ["novela", "romántico"],
+        "region": "San Juan"
+    }
+    ]
+}
