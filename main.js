@@ -171,4 +171,3 @@ fetch('./datos.json')
 });
 
 
-//LOCAL STORAGE

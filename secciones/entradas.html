@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="shortcut icon" href="../imagenes/logo.jpg" type="logoferia">
     <title>ENTRADAS</title>
+
+
 </head>
 <body>
     <header>
@@ -39,17 +42,17 @@
     <main>
         <div class="contenedor-formulario">
             <div class="contenedor-formulario-fondo">
-                <form action="formulario" method="post">
+                <form id="miFormulario">
                     <label for="nombre">Nombre Completo:</label>
                     <input type="text" id="nombre" name="nombre" required>
-
+            
                     <label for="email">Correo Electrónico:</label>
                     <input type="email" id="email" name="email" required>
-
+            
                     <label for="info">Talleres/Charlas:</label>
-                    <input type="info" id="info" name="info" required>
-
-                <button type="button">Enviar</button>
+                    <input type="text" id="info" name="info" required>
+            
+                    <input type="submit" value="Enviar">
                 </form>
             </div>
             
@@ -66,6 +69,7 @@
         </div>
     </footer>
     
-    
+
+    <script src="../formulario.js"></script>
 </body>
 </html>
