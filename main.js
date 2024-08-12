@@ -1,4 +1,4 @@
-//ALERT Y PROMPT
+//ALERT Y PROMPT //ALMACENAMIENTO DE INFORMACIÓN INGRESADA POR EL USUARIO
 
 alert("¡Te damos la bienvenida al sitio oficial de la Feria!");
 
@@ -232,5 +232,10 @@ fetch('./datos.json')
     console.log("Cantidad de usuarios después de agregar nuevos usuarios:", usuarios);
 });
 
-//ALMACENAMIENTO DE INFORMACIÓN INGRESADA POR EL USUARIO
+//EVENTOS
+
+window.onload = function (){
+    console.log("La página se cargó de manera correcta")
+}
+
 
