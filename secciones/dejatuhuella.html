@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="shortcut icon" href="../imagenes/logo.jpg" type="logoferia">
+    <title>ENTRADAS</title>
+
+
+</head>
+<body>
+    <header>
+        <nav class="menú">
+            <ul>
+                <li>
+                    <a href="../index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="./programa.html">PROGRAMA DE ACTIVIDADES</a>
+                </li>
+                <li>
+                    <a href="./editorialesylibrerias.html">EDITORIALES Y LIBRERÍAS</a>
+                </li>
+                <li>
+                    <a href="dejatuhuella.html">DEJA TU HUELLA</a>
+                </li>
+                <li>
+                    <a href="./actividadeseducativas.html">ACTIVIDADES EDUCATIVAS</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="textos-header">
+    <h1 class="textos-headerh1"> DEJÁ TU HUELLA POR LA FERIA DEL LIBRO DE COMODORO RIVADAVIA
+    </h1>
+    <h2 class="textos-headerh2">Edición 11°</h2>
+        </section>  
+    </header>
+
+
+    <div class="containerform">
+        <h3>Formulario de la Feria del Libro</h3>
+        <form id="miFormularioFL">
+            <div class="form-group">
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="1" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="tipoDeLibro">Tipo de Libro Favorito:</label>
+                <input type="text" id="tipoDeLibro" name="tipoDeLibro" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="autor">Autor Favorito:</label>
+                <input type="text" id="autor" name="autor" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="lugar">Lugar desde donde visitas la feria:</label>
+                <input type="text" id="lugar" name="lugar" required>
+            </div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Área para mostrar los datos guardados -->
+    <div id="datosGuardados">
+        <h3>Usuarios que ya dejaron su huella en esta edición</h3>
+        <ul id="listaDatos" class="lista-usuarios"></ul>
+    </div>
+        
+        <div class="footer-p">
+            <p>©2024 Feria Internacional del Libro CR | All Rights Reserved</p>
+        </div>
+    </footer>
+    
+    <script src="../formulariohuella.js"></script>
+
+</body>
+</html>

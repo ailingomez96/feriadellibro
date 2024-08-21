@@ -337,54 +337,7 @@ main .programa-actividades{
     border-radius: 5%;
 }
 
-.contenedor-formulario{
-    text-align: center;
-}
-
-.contenedor-formulario-fondo{
-    display: grid;
-    place-content: center;
-    background-image: url(../imagenes/FormularioFondo.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 30px;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: flex-start;
-    margin-bottom: 60px;
-    color:#b13686;
-    }
-
-label{
-    margin-bottom: 5px;
-    text-align: left;
-    line-height: 50px;
-    font-weight: 700;
-    font-size: larger;
-    }
-
-input {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    }
-
-button{
-    padding: 10px;
-    background-color: #f5ecf480;
-    color: #131112;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 20px;
-    font-size: large;
-    }
+/* CONTENEDORES PROGRAMACIÓN DE DIAS */
 
 .grid-container{
     min-height: 400px;
@@ -484,6 +437,120 @@ button{
     font-weight: 400;
     margin: 10px;
 }
+
+
+/* Estilos generales para el formulario */
+
+.containerform {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #5294a0a6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #555;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%; /* Asegura que todos los campos ocupen el mismo ancho */
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    box-sizing: border-box; 
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #32649b96; 
+    outline: none; 
+}
+
+button {
+    display: block;
+    width: 100%; 
+    padding: 0.75rem;
+    background-color: #007bff7a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la lista de usuarios */
+
+.lista-usuarios {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.lista-usuarios li {
+    background-color: #cc5aaf54; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
+    flex: 1 1 auto; 
+    white-space: nowrap; 
+    overflow: hidden;
+    min-width: 250px; 
+}
+
+.lista-usuarios li:hover {
+    background-color: #e0e0e0; 
+}
+
+@media (max-width: 600px) {
+    .lista-usuarios {
+        flex-direction: column;
+    }
+
+    .lista-usuarios li {
+        min-width: 100%;
+    }
+}
+
+
 
 /*media queries*/
 @media (max-width: 1024px){
