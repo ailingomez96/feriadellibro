@@ -229,6 +229,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: auto;
 }
 
 footer .social-icon{
@@ -550,7 +551,101 @@ button:hover {
     }
 }
 
+/*Contenedor recomendaciones
 
+/* Estilo general para el contenedor principal */
+.cuerpo-contenedor-recomendaciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* Estilo para el contenedor de recomendaciones */
+.contenedorRecomendaciones {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.contenedorRecomendaciones h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.button-recomendaciones {
+    background-color: #007bffa4;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-recomendaciones:hover {
+    background-color: #0056b3;
+}
+
+.button-recomendaciones:active {
+    transform: scale(0.98);
+}
+
+#book-recommendation {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    min-height: 50px;
+    color: #2e2929;
+    line-height: 40px;
+    font-size: large;
+}
+
+@media (max-width: 600px) {
+    .contenedorRecomendaciones {
+        padding: 15px;
+        width: 100%;
+        max-width: 100%; 
+    }
+
+    .contenedorRecomendaciones h3 {
+        font-size: auto; 
+    }
+
+    .button-recomendaciones {
+        font-size: auto;
+        padding: 8px 16px;
+    }
+}
+
+/* Media Query para pantallas medianas */
+@media (max-width: 992px) and (min-width: 601px) {
+    .contenedorRecomendaciones {
+        padding: 20px;
+        width: 100%;
+        max-width: 80%;
+    }
+
+    .contenedorRecomendaciones h3 {
+        font-size: auto;
+    }
+
+    .button-recomendaciones {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
 
 /*media queries*/
 @media (max-width: 1024px){

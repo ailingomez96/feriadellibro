@@ -36,6 +36,8 @@
     <main>
         <section class="contenedor-editoriales-librerias">
             <h2 class="subtitulo"> Editoriales </h2>
+            <p class="párrafo-auxiliar">En esta edición la feria contará con la participación de las siguientes editoriales, que contarán con distintos puestos dispuestos en la feria. </p>
+
             <div class="editoriales-listado">
                 <ul>
                     <li>
@@ -47,6 +49,8 @@
                 </ul>
             </div>
             <h2 class="subtitulo"> Librerías </h2>
+            <p class="párrafo-auxiliar">Las siguientes librerías, tanto de Comodoro Rivadavia,como de otras partes de la provincia, estarán presentes con distintos stands en esta edición de la feria: </p>
+
             <div class="librerías-listado">
                 <ul>
                     <li>
@@ -59,7 +63,24 @@
                     </li>
                 </ul>
             </div>
+
+        </section>
+        <section class="contenedor programa-actividades">
+        <h2 class="subtitulo"> Recomendaciones de Lectura </h2>
+        <p class="párrafo-auxiliar"> Para esta edición, en conjunto con las distintas librerías y editoriales participantes, se generó un recomendador de lectura, donde se invita a que los usuarios vean de forma aleatoria recomendaciones de libros para leer. </p>
+    </section>
+
+
+            <div class="cuerpo-contenedor-recomendaciones">
+                <div class="contenedorRecomendaciones">
+                    <h3>Libro recomendado para leer</h3>
+                    <button class="button-recomendaciones" onclick="getRandomBook()">Obtener Recomendación</button>
+                    <div id="book-recommendation">
+                </div>
+            </div>
+        
     </main>
+
 
     <footer>
         <ul class="social-icon">
@@ -72,6 +93,9 @@
             <p>©2024 Feria Internacional del Libro CR | All Rights Reserved</p>
         </div>
     </footer>
+
+    <script src="../recomendaciones.js"></script>
+
 
 </body>
 </html>
