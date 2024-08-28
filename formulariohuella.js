@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 );
                 localStorage.setItem('numeroUsuario', numeroMaximo + 1);
             })
+            .catch(error => console.error('Error al cargar datos:', error));
     }
 
     function generarNumeroUsuario() {
@@ -82,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 nombre: datosObj.nombre,
                 usuario: datosObj.usuario,
                 edad: datosObj.edad,
-                tipo_libro: datosObj.tipo_libro.split(',').map(item => item.trim()), // Asegúrate de que esto sea consistente con el formulario
+                tipo_libro: datosObj.tipo_libro ? datosObj.tipo_libro.split(',').map(item => item.trim()) : [],
                 autor_favorito: datosObj.autor_favorito,
                 region: datosObj.region
             });
