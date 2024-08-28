@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h4>${usuario.nombre || 'No disponible'}</h4>
                 <p><strong>Usuario:</strong> ${usuario.usuario || 'No disponible'}</p>
                 <p><strong>Edad:</strong> ${usuario.edad || 'No disponible'}</p>
-                <p><strong>Tipo de Libro:</strong> ${usuario.tipoDeLibro || 'No disponible'}</p>
-                <p><strong>Autor Favorito:</strong> ${usuario.autor || 'No disponible'}</p>
-                <p><strong>Lugar:</strong> ${usuario.lugar || 'No disponible'}</p>
+                <p><strong>Tipo de Libro:</strong> ${usuario.tipo_libro ? usuario.tipo_libro.join(', ') : 'No disponible'}</p>
+                <p><strong>Autor Favorito:</strong> ${usuario.autor_favorito || 'No disponible'}</p>
+                <p><strong>Lugar:</strong> ${usuario.region || 'No disponible'}</p>
             `;
             listaUsuarios.appendChild(item);
         });
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 mostrarUsuarios(usuarios);
 
                 const numeroMaximo = Math.max(
-                    ...usuarios.map(usuario => parseInt(usuario.usuario, 10) || 0),
+                    ...usuarios.map(usuario => parseInt(usuario.usuario.replace('usuario ', ''), 10) || 0),
                     29 
                 );
                 localStorage.setItem('numeroUsuario', numeroMaximo + 1);
@@ -42,10 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function generarNumeroUsuario() {
-        // Obtén el número de usuario desde localStorage
         let numeroActual = parseInt(localStorage.getItem('numeroUsuario'), 10);
         if (isNaN(numeroActual)) {
-            // Si el número es NaN, comienza desde 30 (o cualquier valor que consideres apropiado)
             numeroActual = 30;
         }
         localStorage.setItem('numeroUsuario', numeroActual + 1);
@@ -77,10 +75,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 datosObj[clave] = valor;
             });
 
-            datosObj.usuario = generarNumeroUsuario();
+            datosObj.usuario = `usuario ${generarNumeroUsuario()}`;
 
             let datosArray = JSON.parse(localStorage.getItem('formularioData')) || [];
-            datosArray.push(datosObj);
+            datosArray.push({
+                nombre: datosObj.nombre,
+                usuario: datosObj.usuario,
+                edad: datosObj.edad,
+                tipo_libro: datosObj.tipo_libro.split(',').map(item => item.trim()), // Asegúrate de que esto sea consistente con el formulario
+                autor_favorito: datosObj.autor_favorito,
+                region: datosObj.region
+            });
             localStorage.setItem('formularioData', JSON.stringify(datosArray));
 
             alert('Formulario cargado correctamente');
